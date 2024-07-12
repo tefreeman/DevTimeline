@@ -33,6 +33,11 @@ Each project in this repository marks a distinct chapter in my early coding jour
 ### 2017-2019 - Sift
 - **Project Description**: Developed an AI-powered app to estimate calorie counts in dishes from menus using a combination of web scraping and machine learning. This project was developed with git so I'll link the repos instead.
 - **Links**:
+  - **Frontend Angular**: https://github.com/tefreeman/foodApp/tree/frontEndApi
+  - **Recipe Crawlers**: https://github.com/tefreeman/opencrawl
+  - **Yelp Crawler**: https://github.com/tefreeman/ycrawl
+  - **Recipe parser**: https://github.com/tefreeman/recipe_parser
+  - **Food Ingredient Connector: https://github.com/tefreeman/food_connector
 
 ## Using This Repository
 
