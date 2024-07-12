@@ -37,7 +37,7 @@ Each project in this repository marks a distinct chapter in my early coding jour
   - **Recipe Crawlers**: https://github.com/tefreeman/opencrawl
   - **Yelp Crawler**: https://github.com/tefreeman/ycrawl
   - **Recipe parser**: https://github.com/tefreeman/recipe_parser
-  - **Food Ingredient Connector: https://github.com/tefreeman/food_connector
+  - **Food Ingredient Connector**: https://github.com/tefreeman/food_connector
 
 ## Using This Repository
 
