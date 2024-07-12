@@ -1,0 +1,161 @@
+
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>CodePen - Contact Form Template</title>
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+<link href="http://dev.see8ch.com/see8ch/v3/fonts/ss-social/ss-social.css" rel="stylesheet" />
+
+<link href="http://dev.see8ch.com/see8ch/v3/fonts/ss-standard/ss-standard.css" rel="stylesheet" />
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+
+
+<link href="/css/login.css" rel="stylesheet" />
+    
+    
+
+    <script>
+  window.console = window.console || function(t) {};
+</script>
+
+        <script src="//assets.codepen.io/assets/libs/prefixfree.min-d258f6cb24f3a877e4fb83b348ec8a3f.js"></script>
+
+    
+  </head>
+
+  <body>
+
+    	<section id="hire">
+	<h1>Enter Profile Details</h1>   
+	<h3> In order to activate your account you must create a profile to interact with your customers </h3>
+	<br>
+	<form action="/php/registerProfessionalDetails.php" method="post" id="proDetails">
+	     
+		  <div class="field name-box">
+		        <input type="text" id="age" placeholder="" name="age"/>
+        		<label for="name">Age</label>
+		        <span class="ss-icon">Age</span>
+	      </div>
+
+		  <div class="field name-box">
+		        <input type="text" id="Fblink" placeholder="Please copy and paste your facebook profile link" name="facebook"/>
+        		<label for="name">Facebook Link (optional)</label>
+		        <span class="ss-icon">FB</span>
+	      </div>
+		 <h2>Fill out a paragraph about you that will be displayed to the home users</h2>
+		 <h3>For best results please do not format the paragraph, simply type a paragraph about you.</h3>
+		<textarea rows="5"  id="aboutTxt" placeholder="" name="about" form="proDetails"></textarea>	
+		<input type="hidden" id="picture" placeholder="" name="picture" value="12"/>
+		<input type="hidden" id="picture" placeholder="" name="area" value="12"/>
+		<br>
+	      <input class="button" type="submit" value="Submit" />
+  </form>
+</section>
+      <script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout-f961f59a28ef4fd551736b43f94620b5.js"></script>
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script>
+		function goBack() 
+	{
+		window.history.back();
+	}	
+      $('textarea').blur(function () {
+    $('#hire textarea').each(function () {
+        $this = $(this);
+        if (this.value != '') {
+            $this.addClass('focused');
+            $('textarea + label + span').css({ 'opacity': 1 });
+        } else {
+            $this.removeClass('focused');
+            $('textarea + label + span').css({ 'opacity': 0 });
+        }
+    });
+});
+$('#hire .field:first-child input').blur(function () {
+    $('#hire .field:first-child input').each(function () {
+        $this = $(this);
+        if (this.value != '') {
+            $this.addClass('focused');
+            $('.field:first-child input + label + span').css({ 'opacity': 1 });
+        } else {
+            $this.removeClass('focused');
+            $('.field:first-child input + label + span').css({ 'opacity': 0 });
+        }
+    });
+});
+$('#hire .field:nth-child(2) input').blur(function () {
+    $('#hire .field:nth-child(2) input').each(function () {
+        $this = $(this);
+        if (this.value != '') {
+            $this.addClass('focused');
+            $('.field:nth-child(2) input + label + span').css({ 'opacity': 1 });
+        } else {
+            $this.removeClass('focused');
+            $('.field:nth-child(2) input + label + span').css({ 'opacity': 0 });
+        }
+    });
+});
+      //@ sourceURL=pen.js
+    </script>
+
+    
+    <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+<script type="text/javascript">
+$(function () {
+  var $sections = $('.form-section');
+
+  function navigateTo(index) {
+    // Mark the current section with the class 'current'
+    $sections
+      .removeClass('current')
+      .eq(index)
+        .addClass('current');
+    // Show only the navigation buttons that make sense for the current section:
+    $('.form-navigation .previous').toggle(index > 0);
+    var atTheEnd = index >= $sections.length - 1;
+    $('.form-navigation .next').toggle(!atTheEnd);
+    $('.form-navigation [type=submit]').toggle(atTheEnd);
+  }
+
+  function curIndex() {
+    // Return the current index by looking at which section has the class 'current'
+    return $sections.index($sections.filter('.current'));
+  }
+
+  // Previous button is easy, just go back
+  $('.form-navigation .previous').click(function() {
+    navigateTo(curIndex() - 1);
+  });
+
+  // Next button goes forward iff current block validates
+  $('.form-navigation .next').click(function() {
+    if ($('.demo-form').parsley().validate({group: 'block-' + curIndex()}))
+      navigateTo(curIndex() + 1);
+  });
+
+  // Prepare sections by setting the `data-parsley-group` attribute to 'block-0', 'block-1', etc.
+  $sections.each(function(index, section) {
+    $(section).find(':input').attr('data-parsley-group', 'block-' + index);
+  });
+  navigateTo(0); // Start at the beginning
+});
+</script>
+    
+  </body>
+</html>

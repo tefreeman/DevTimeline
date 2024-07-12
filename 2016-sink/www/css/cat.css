@@ -1,0 +1,229 @@
+ p {
+	 color: black;
+ }
+ 
+ body {
+	background-image: url("/images/wallpaper/2.jpg");
+	font-size: 62.5%;
+	font-family: 'Lato', sans-serif;
+	color: #B6B6B6;
+	}
+.problemContent 
+{
+	display: none;
+}
+#activated 
+{
+	width: auto;
+	height: auto;
+}
+	
+#header {
+    background-color:#efefef;
+    color:white;
+    text-align:center;
+    padding:5px;
+	margin: 50px 20%;
+	}
+	
+#catGenContent {
+    text-align:center;
+    padding:5px;
+	margin: 40px 5%;
+	}
+	
+#catContent {
+    text-align:center;
+    padding:5px;
+	margin: 40px 5%;
+	}
+	
+#submit 
+{
+	background-color:#efefef;
+    color:white;
+    text-align:center;
+    padding:5px;
+	margin: auto;
+	width: 400px;
+	border-radius: 5px;
+}
+#submit:hover
+{
+	background-color:#fff;
+    color:white;
+    text-align:center;
+    padding:5px;
+	margin: auto;
+	width: 400px;
+	border-radius: 5px;
+}
+	
+#delivery, #air_conditoning, #fitness, #sports, #cleaning, #appliances, #electronics, #computers, #electrical, #painting, #plumbing, #handyman, #landscape{
+		display: none;
+}
+h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #313A3D;  
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-size: 2em;
+	margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #313A3D;
+  text-align: center;
+
+}
+
+h3 {
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 20x;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #313A3D;
+  text-align: center;
+
+}
+
+a.btn1 {
+	display: inline-block;
+	color: #666;
+	width: 155px;
+	margin: 1px;
+	background-color: #efefef;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 12px;
+	padding: 15px 3px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+
+	a.btn1:hover {
+		background-color: #fff;
+		color: #303030;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn1:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+	
+
+a.btn2 {
+	display: inline-block;
+	color: #333;
+	width: 150px;
+	margin: 1px;
+	background-color: #5FBA7D;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding: 15px 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+	font-weight: bold;
+}
+
+
+	a.btn2:hover {
+		border-color: rgba(0,0,0,0.5);
+		color: #fff;
+	}
+	
+	a.btn2:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+a.btn3 {
+	display: inline-block;
+	color: #333;
+	width: 150px;
+	margin: 1px;
+	background-color: #efefef;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding: 15px 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+
+	a.btn3:hover {
+		background-color: #fff;
+		color: #303030;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn3:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+
+
+
+#container div {
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+
+#log {
+    background-color:#efefef;
+    color:white;
+    text-align:left;
+    padding:5px;
+	margin: 20px 20%;
+	}
+	
+.buttonSubmit {
+	 background: #FD9638;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+  margin: 20px;
+
+}
+
+.buttonSubmit:hover {
+  background: #313A3D;
+  color: #FD9638;;
+	}
+	
+.buttonSubmit:focus {
+  outline: none;
+  background: #cd6302;
+	}
+	

@@ -1,0 +1,375 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/list.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+
+<body>
+		<header>
+			<h1>My Problems List</h1>
+		</header>
+
+	<section id="elementSpacing">
+		<div id="contentHeader">
+		<h2>Problem Builder</h2>
+		</div>
+
+			
+		<div id="contentMain">
+		To build your list of problems or services that you need help with simply fill out the fields below and hit submit. Your problems that you added to your list will appear under MyList.
+			<form method="POST" action="" id="myForm">
+			<br></br>
+				<input type="hidden" value="" name="type" id="type"></input>
+				<label for="name">Problem Name:</label>
+				<input type="text" value="" id="name" name="name"></input>
+				
+				<input type="button"onclick="showMe();" value="Select Problem Type" id="showCatButton">
+	<div id="hidden" style="display: none;">
+		<div id="headerCat">
+			<h2> Pick Your Problem Type </h2>
+		</div>
+		<div id="catGenContent">
+			<a href="#btn" class="btn1" id="a"  onClick="activateButton(this.name);" name="delivery">Delivery</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="air_conditoning">AC</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="fitness">Fitness</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="sports">Sports Training</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="cleaning">Cleaning</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="appliances">Appliances</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="electronics">Electronics</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="computers">Computer Related</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="electrical">Electrical</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="painting">Painting</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="plumbing">Plumbing</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="handyman">Handyman</a>
+			<a href="#btn" class="btn1"  onClick="activateButton(this.name);"name="landscape">Landscaping</a>
+			
+		</div>
+		
+		
+		
+		<div id="catContent">
+			<div id="delivery">
+				<a href="#btn" class="btn3" id="1" onClick="changeClass(this.id)">Groceries</a>
+				<a href="#btn" class="btn3" id="2" onClick="changeClass(this.id)">Goods</a>
+				<a href="#btn" class="btn3" id="3" onClick="changeClass(this.id)">Food</a>
+			</div>
+			<div id="air_conditoning">
+				<a href="#btn" class="btn3" id="31" onClick="changeClass(this.id)">Centeral AC Install</a>
+				<a href="#btn" class="btn3" id="32" onClick="changeClass(this.id)">Centeral AC Repair </a>
+				<a href="#btn" class="btn3" id="33" onClick="changeClass(this.id)">Centeral AC Service </a>
+				<a href="#btn" class="btn3" id="35" onClick="changeClass(this.id)">Window AC Install</a>
+				<a href="#btn" class="btn3" id="36" onClick="changeClass(this.id)">Window AC Repair</a>
+				<a href="#btn" class="btn3" id="38" onClick="changeClass(this.id)">Window AC Service</a>
+			</div>
+			<div id="fitness">
+				<a href="#btn" class="btn3" id="5" onClick="changeClass(this.id)">Personal Trainer</a>
+				<a href="#btn" class="btn3" id="6" onClick="changeClass(this.id)">Professional Trainer</a>
+				<a href="#btn" class="btn3" id="7" onClick="changeClass(this.id)">Nutrition Expert</a>
+			</div>
+			<div id="sports">
+				<a href="#btn" class="btn3" id="8" onClick="changeClass(this.id)">Tennis</a>
+				<a href="#btn" class="btn3" id="9" onClick="changeClass(this.id)">Soccer</a>
+				<a href="#btn" class="btn3" id="10" onClick="changeClass(this.id)">Football</a>
+				<a href="#btn" class="btn3" id="11" onClick="changeClass(this.id)">Basketball</a>
+				<a href="#btn" class="btn3" id="12" onClick="changeClass(this.id)">Swimming</a>
+				<a href="#btn" class="btn3" id="13" onClick="changeClass(this.id)">Lacrosse</a>
+				<a href="#btn" class="btn3" id="14" onClick="changeClass(this.id)">Dance</a>
+				<a href="#btn" class="btn3" id="15" onClick="changeClass(this.id)">Baseball</a>
+				<a href="#btn" class="btn3" id="16" onClick="changeClass(this.id)">Martial Arts</a>
+				<a href="#btn" class="btn3" id="17" onClick="changeClass(this.id)">Wrestling</a>
+				<a href="#btn" class="btn3" id="18" onClick="changeClass(this.id)">Cheer Leading</a>
+			</div>
+			<div id="cleaning">
+				<a href="#btn" class="btn3" id="81" onClick="changeClass(this.id)">Maid Service</a>
+				<a href="#btn" class="btn3" id="82" onClick="changeClass(this.id)">Carpet & Draperies</a>
+				<a href="#btn" class="btn3" id="83" onClick="changeClass(this.id)">Window</a>
+				<a href="#btn" class="btn3" id="84" onClick="changeClass(this.id)">Exterior Home</a>
+				<a href="#btn" class="btn3" id="86" onClick="changeClass(this.id)">Property Cleanup</a>
+				<a href="#btn" class="btn3" id="87" onClick="changeClass(this.id)">ducts & vents</a>
+				<a href="#btn" class="btn3" id="88" onClick="changeClass(this.id)">Chimney & Fireplace</a>
+				<a href="#btn" class="btn3" id="91" onClick="changeClass(this.id)">Driveways & Floors</a>
+				<a href="#btn" class="btn3" id="92" onClick="changeClass(this.id)">Patio Walks & Steps</a>
+				<a href="#btn" class="btn3" id="93" onClick="changeClass(this.id)">grill</a>
+				<a href="#btn" class="btn3" id="90" onClick="changeClass(this.id)">other</a>
+			</div>
+			<div id="appliances">
+				<a href="#btn" class="btn3" id="408" onClick="changeClass(this.id)">Centeral Vacuum Cleaner</a>
+				<a href="#btn" class="btn3" id="409" onClick="changeClass(this.id)">Clothes Dryer</a>
+				<a href="#btn" class="btn3" id="410" onClick="changeClass(this.id)">Dish Washer</a>
+				<a href="#btn" class="btn3" id="411" onClick="changeClass(this.id)">Freezer</a>
+				<a href="#btn" class="btn3" id="412" onClick="changeClass(this.id)">Humidifer</a>
+				<a href="#btn" class="btn3" id="413" onClick="changeClass(this.id)">Microwave</a>
+				<a href="#btn" class="btn3" id="414" onClick="changeClass(this.id)">Oven</a>
+				<a href="#btn" class="btn3" id="415" onClick="changeClass(this.id)">Refrigerator</a>
+				<a href="#btn" class="btn3" id="416" onClick="changeClass(this.id)">Stove</a>
+				<a href="#btn" class="btn3" id="417" onClick="changeClass(this.id)">Vaccum Cleaner</a>
+				<a href="#btn" class="btn3" id="418" onClick="changeClass(this.id)">Washing Machine</a>
+				<a href="#btn" class="btn3" id="419" onClick="changeClass(this.id)">Appliances Other</a>
+			</div>
+			<div id="electronics">		
+				<a href="#btn" class="btn3" id="425" onClick="changeClass(this.id)">TV Install</a>
+				<a href="#btn" class="btn3" id="426" onClick="changeClass(this.id)">TV Repair</a>			
+				<a href="#btn" class="btn3" id="427" onClick="changeClass(this.id)">Home Security & Alarms</a>
+				<a href="#btn" class="btn3" id="428" onClick="changeClass(this.id)">Audio & Visual (AV) </a>
+				<a href="#btn" class="btn3" id="240" onClick="changeClass(this.id)">Home Theater Wiring</a>			
+				<a href="#btn" class="btn3" id="429" onClick="changeClass(this.id)">Surround Sound</a>			
+				<a href="#btn" class="btn3" id="430" onClick="changeClass(this.id)">TV Wall Mounting</a>
+				<a href="#btn" class="btn3" id="431" onClick="changeClass(this.id)">Home Automation</a>
+				<a href="#btn" class="btn3" id="432" onClick="changeClass(this.id)">Universal Remote</a>
+				<a href="#btn" class="btn3" id="433" onClick="changeClass(this.id)">Gaming System</a>
+				<a href="#btn" class="btn3" id="434" onClick="changeClass(this.id)">other</a>
+			</div>
+			<div id="computers">		
+				<a href="#btn" class="btn3" id="422" onClick="changeClass(this.id)">Computer Setup</a>
+				<a href="#btn" class="btn3" id="423" onClick="changeClass(this.id)">Computer Repair</a>
+				<a href="#btn" class="btn3" id="424" onClick="changeClass(this.id)">Computer General</a>
+				<a href="#btn" class="btn3" id="436" onClick="changeClass(this.id)">Router Setup</a>	
+				<a href="#btn" class="btn3" id="437" onClick="changeClass(this.id)">Internet Repair</a>	
+				<a href="#btn" class="btn3" id="438" onClick="changeClass(this.id)">Printer Install</a>
+				<a href="#btn" class="btn3" id="439" onClick="changeClass(this.id)">Printer Repair</a>					
+			</div>
+			<div id="electrical">
+				<a href="#btn" class="btn3" id="143" onClick="changeClass(this.id)">Outlet & Panels</a>
+				<a href="#btn" class="btn3" id="146" onClick="changeClass(this.id)">Switches & Wiring</a>
+				<a href="#btn" class="btn3" id="147" onClick="changeClass(this.id)">Circuit breaker</a>			
+				<a href="#btn" class="btn3" id="148" onClick="changeClass(this.id)">Generators</a>
+				<a href="#btn" class="btn3" id="144" onClick="changeClass(this.id)">Cable/Tele Networks</a>			
+				<a href="#btn" class="btn3" id="149" onClick="changeClass(this.id)">Thermostats</a>
+				<a href="#btn" class="btn3" id="150" onClick="changeClass(this.id)">Home Security</a>
+				<a href="#btn" class="btn3" id="145" onClick="changeClass(this.id)">Lighting Install</a>			
+				<a href="#btn" class="btn3" id="151" onClick="changeClass(this.id)">Lighting Repair</a>
+			</div>
+			<div id="painting">
+				<a href="#btn" class="btn3" id="300" onClick="changeClass(this.id)">Exterior Painting</a>
+				<a href="#btn" class="btn3" id="301" onClick="changeClass(this.id)">Interior Painting</a>
+				<a href="#btn" class="btn3" id="302" onClick="changeClass(this.id)">Speical Finishes</a>			
+				<a href="#btn" class="btn3" id="303" onClick="changeClass(this.id)">Paint Preparation</a>
+				<a href="#btn" class="btn3" id="304" onClick="changeClass(this.id)">Paint Removal & Cleaning</a>			
+				<a href="#btn" class="btn3" id="305" onClick="changeClass(this.id)">Decorators & Design</a>
+				<a href="#btn" class="btn3" id="306" onClick="changeClass(this.id)">Wallpapering</a>
+			</div>
+			<div id="plumbing">
+				<a href="#btn" class="btn3" id="307" onClick="changeClass(this.id)">Drain Clearing</a>
+				<a href="#btn" class="btn3" id="308" onClick="changeClass(this.id)">Faucets & Pipes</a>
+				<a href="#btn" class="btn3" id="309" onClick="changeClass(this.id)">Septic Systems</a>			
+				<a href="#btn" class="btn3" id="310" onClick="changeClass(this.id)">Sewers & Water Mains</a>
+				<a href="#btn" class="btn3" id="315" onClick="changeClass(this.id)">Water Heaters</a>			
+				<a href="#btn" class="btn3" id="316" onClick="changeClass(this.id)">Boilers & Radiators</a>
+				<a href="#btn" class="btn3" id="317" onClick="changeClass(this.id)">Hot Tubs & Spas</a>
+				<a href="#btn" class="btn3" id="318" onClick="changeClass(this.id)">Pumps</a>			
+				<a href="#btn" class="btn3" id="319" onClick="changeClass(this.id)">Water Purificaiton</a>
+				<a href="#btn" class="btn3" id="320" onClick="changeClass(this.id)">Other Plumbing</a>
+			</div>
+			<div id="handyman">
+				<a href="#btn" class="btn3" id="206" onClick="changeClass(this.id)">Carpentry</a>
+				<a href="#btn" class="btn3" id="207" onClick="changeClass(this.id)">Gutter Cleaning</a>
+				<a href="#btn" class="btn3" id="208" onClick="changeClass(this.id)">Small House Fixes</a>			
+				<a href="#btn" class="btn3" id="209" onClick="changeClass(this.id)">Small painting</a>
+				<a href="#btn" class="btn3" id="210" onClick="changeClass(this.id)">Basic Electrical</a>			
+				<a href="#btn" class="btn3" id="211" onClick="changeClass(this.id)">Small Leaks</a>
+				<a href="#btn" class="btn3" id="212" onClick="changeClass(this.id)">Outdoors Sprinkler</a>
+				<a href="#btn" class="btn3" id="440" onClick="changeClass(this.id)">Small House Projects</a>
+				<a href="#btn" class="btn3" id="441" onClick="changeClass(this.id)">Wall Repair</a>
+				<a href="#btn" class="btn3" id="442" onClick="changeClass(this.id)">Ceiling Repair</a>	
+				<a href="#btn" class="btn3" id="443" onClick="changeClass(this.id)">Window Repair</a>
+				<a href="#btn" class="btn3" id="444" onClick="changeClass(this.id)">Changing Lights</a>	
+				<a href="#btn" class="btn3" id="445" onClick="changeClass(this.id)">Fan installion</a>	
+				<a href="#btn" class="btn3" id="446" onClick="changeClass(this.id)">Stain Removal</a>			
+				<a href="#btn" class="btn3" id="447" onClick="changeClass(this.id)">Garage Doors</a>	
+				<a href="#btn" class="btn3" id="448" onClick="changeClass(this.id)">Power Washing</a>
+				<a href="#btn" class="btn3" id="449" onClick="changeClass(this.id)">Toilet Repair</a>
+				<a href="#btn" class="btn3" id="450" onClick="changeClass(this.id)">Insulation</a>	
+				<a href="#btn" class="btn3" id="451" onClick="changeClass(this.id)">Roofing Repair</a>	
+				<a href="#btn" class="btn3" id="452" onClick="changeClass(this.id)">Pest Control</a>				
+				<a href="#btn" class="btn3" id="453" onClick="changeClass(this.id)">Furniture Assembly</a>	
+			</div>
+			<div id="landscape">
+				<a href="#btn" class="btn3" id="291" onClick="changeClass(this.id)">Design</a>
+				<a href="#btn" class="btn3" id="454" onClick="changeClass(this.id)">General Installion</a>
+				<a href="#btn" class="btn3" id="292" onClick="changeClass(this.id)">Maintenance</a>			
+				<a href="#btn" class="btn3" id="293" onClick="changeClass(this.id)">Sprinkler System</a>
+				<a href="#btn" class="btn3" id="294" onClick="changeClass(this.id)">Water Features</a>			
+				<a href="#btn" class="btn3" id="295" onClick="changeClass(this.id)">Trees and Shrubs</a>
+				<a href="#btn" class="btn3" id="296" onClick="changeClass(this.id)">Decks & Porches</a>
+				<a href="#btn" class="btn3" id="297" onClick="changeClass(this.id)">Fances</a>			
+				<a href="#btn" class="btn3" id="298" onClick="changeClass(this.id)">Patios Steps & Walkways</a>
+				<a href="#btn" class="btn3" id="299" onClick="changeClass(this.id)">Walls & Retainment</a>
+			</div>
+					<div id="activated">
+			</div>
+		</div>
+		<div id="submit">
+			<input type="button" class="buttonSubmit" value="Submit Type" onclick="submitMe();"></input>
+		</div>
+	</div>
+				<br> </br>
+				<label for="bio">Description:</label>
+				<textarea name="description" form="myForm">Enter text here...</textarea>
+				<br></br>
+				Please select your images here.
+				<br></br>
+				<input type="file" name="pic1" value=""></input>
+				<input type="file" name="pic2" value=""></input>
+				<input type="file" name="pic3" value=""></input>
+				<input type="file" name="pic4" value=""></input>
+				<input type="file" name="pic4" value=""></input>
+				<br></br>
+				<input type="radio" name="urgent" value="Urgent"> Urgent?</input>
+				<br></br>
+				<select name="cars">
+					<option value ="$12 hour">12$ hour</option>
+					<option value ="$15 hour">15$ hour</option>
+					<option value ="$18 hour">18$ hour</option>
+				</select>
+				 <br></br>
+					Estimated Wait times is
+				<br></br>
+		  <button type="submit">Add to MyList</button>
+			</form>	
+		</div>
+
+
+		</section>	
+		<div id=sideHeader>
+		<h2>My List</h2>
+		</div>
+
+		<section id="sectionProblems">
+		</section>
+</body>
+
+
+<script>
+
+$( document ).ready(getData());
+
+function getData()
+{
+var test = 1000;
+	$.ajax
+	({
+		type: "POST",
+		url: "/php/list.php",
+		data: {action: 'test'},
+		dataType:'JSON', 
+		success: function(response)
+		{ 
+		// count the json object and return how many keys (arrays they have)
+			var count = 0;
+			for(var key in response)
+			if(response.hasOwnProperty(key))
+			count++;
+			alert(count);
+		// loop through the arrays and create the elements and content
+			for (i =0; i < count; i++) 
+			{
+				var picUrl = "response["+i+"].img"
+				var rName= "response["+i+"].name"
+				var rType= "response["+i+"].type"
+				var rRate= "response["+i+"].rate"
+				
+				var d = document.createElement('div');
+				$(d).addClass('problems').attr("id", "problem"+i).appendTo($("#sectionProblems")) //main div
+				var name = document.createElement('div');
+				$(name).addClass('contentName').attr("id", "1name").html(eval(rName)).appendTo($("#problem"+i))
+				var probPicture = document.createElement('div');
+				$(probPicture).attr("id", "1price").prepend($('<img>',{class:'picture',src: eval(picUrl)})).appendTo($("#problem"+i))
+				var type = document.createElement('div');
+				$(type).addClass('contentType').attr("id", "1type").html(eval(rType)).appendTo($("#problem"+i))
+				var price = document.createElement('div');
+				$(price).addClass('contentType').attr("id", "1rate").html(eval(rRate)).appendTo($("#problem"+i))
+				var buttons = document.createElement('div');
+				$(buttons).addClass('contentType').attr("id", "1price").prepend($('<img>',{class:'contentButtonsSpacing',src:'/images/edit.png'})).prepend($('<img>',{src:'/images/delete.png'})).appendTo($("#problem"+i))
+			}
+			
+		}
+	});
+}
+</script>
+
+<script>
+
+// activates types of skills under the catorgory
+var count = 0;
+var z = 0;
+var idCat = 0;
+var arrayCounter = [];
+var f = document.createElement("form");
+f.setAttribute('method',"post");
+f.setAttribute('action',"/php/registerProfessionalSkillSet.php");
+f.setAttribute('id', 'myForm');
+// create count input to pass to php to coun;t the number of inputs being sent
+var h = document.createElement("input");
+var j = document.createElement("input");
+ //input element, text
+j.setAttribute('type',"text");
+j.setAttribute('name',"count");
+j.setAttribute('value',count);
+j.setAttribute("hidden", true);
+f.appendChild(j);
+document.getElementsByTagName('body')[0].appendChild(f);
+
+
+	function showMe()
+	{
+	$("#hidden").show();
+	$("#showCatButton").hide();
+	}
+
+	function activateButton(clicked_name)
+	{
+		 
+		var e = document.getElementById(clicked_name);
+		if(e.style.display == 'block')
+			{
+				 e.style.display = 'none';
+			}
+			else 
+				{
+					e.style.display = 'block';
+				}
+	}
+	function changeClass(clicked_id, clicked_name)
+	{
+
+		var e = document.getElementById(clicked_id);
+			if(e.className == 'btn3')	
+			{
+				if(count < 1)
+				{
+					idCat = clicked_id;
+					count +=1;
+					update();
+					$("#type").val(idCat);
+					document.getElementById(clicked_id).className = "btn2";
+				} else 
+					{
+					alert("you can only select one problem type");
+					}
+
+			}	
+				else
+			{
+				count -=1;
+				update();
+				idCat = 0;
+				$("#type").val('');
+				//toggles the id value for the mysql database
+				document.getElementById(clicked_id).className = "btn3";	
+			}
+
+	}
+	
+	function update()
+		{
+		j.setAttribute('value',count);
+		}
+		
+	function submitMe()
+	{
+	$("#hidden").hide();
+	$("#showCatButton").show();
+	}
+	
+	</script>
+

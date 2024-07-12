@@ -1,0 +1,1 @@
+Although there are no executable files or noticeable activity when opening it in a virtual machine, virus detection software still flags it. Open it at your own risk. The archive is compressed in a .7z format with the password "virus".

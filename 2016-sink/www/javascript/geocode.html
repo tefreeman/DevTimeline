@@ -1,0 +1,28 @@
+<html>
+<div id= shit onclick="createAddress();">testing</div>
+
+  <script async defer 
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA1Jp_khqFhEIkkQ5iK6HoOKWWt6Ed6-c">
+    </script>
+<script>
+// Encode Address parts to create Googleapi sending addresds full
+
+function createAddress()
+	{
+		var geocoder= new google.maps.Geocoder();
+		var address = "616 Lake Colony Pointe Birmingham, Alabama 35242"
+		geocoder.geocode({'address': address}, function(results, status)
+		{
+				if (status === google.maps.GeocoderStatus.OK) 
+			{
+			alert(results[0].geometry.location.lat());
+			}
+			else
+			{
+			alert("failure");
+			}
+		});
+	}
+</script>
+	testing
+   </html>

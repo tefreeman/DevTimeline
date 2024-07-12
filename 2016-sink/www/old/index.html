@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Arvo:400,400italic,700italic,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/css/theme.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<title>FixsSeri</title>
+</head>
+<nav>
+</nav>
+<header>
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+</header>
+<body>
+	<section id="loginContainer">
+	<h1 id="loginTitle">Login</h1>
+   		<figure>
+   		 <img src="/images/login.png" alt="Login Image" class="mainPage" align="middle" id="loginImg">
+        </figure>
+        <form action="/php/login.php" class="loginForm" name="form" id="loginForm" method="post">
+        <h2 id="loginFormTitle">Login</h2>
+        	<input type="text" name="username" id="usernameLogin" value="" placeholder="Email address" class="loginParts">
+        	<br>
+             <input type="password" name="password" id="passwordLogin" value="" placeholder="Password" class="loginParts">
+      	 	<br>
+            <input type="submit" value="login" id="submit" class="loginButton" name="logSubmit">
+        </form>
+    </section>
+	<section id="registerContainer">
+    <h1 id="registerTitle">Register</h1>
+    <iframe src="signup.html" id="iframeReg"></iframe>
+    	<figure>
+   		 <img src="/images/Register.png" alt="Register Image" class="mainPage" align="middle" id="registerImg">
+    	</figure>
+	</section>
+<script src="/javascript/script.js"></script>
+<script src="/javascript/validate.js"></script>
+<script src="/javascript/jquery.foggy.min.js"></script>
+</body>
+<footer>
+<p id="footerTxt">©Company name and a bunch of footer bullshit.</p>
+</footer>
+</html>

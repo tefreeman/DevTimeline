@@ -1,0 +1,450 @@
+Delivered-To: trevorefreeman@gmail.com
+Received: by 10.76.95.228 with SMTP id dn4csp45326oab;
+        Thu, 11 Apr 2013 22:30:11 -0700 (PDT)
+X-Received: by 10.68.184.132 with SMTP id eu4mr12940922pbc.87.1365744610990;
+        Thu, 11 Apr 2013 22:30:10 -0700 (PDT)
+Return-Path: <MFREEMAN@balch.com>
+Received: from db8outboundpool.messaging.microsoft.com (mail-db8lp0186.outbound.messaging.microsoft.com. [213.199.154.186])
+        by mx.google.com with ESMTPS id tk6si7368128pbc.256.2013.04.11.22.30.09
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 11 Apr 2013 22:30:10 -0700 (PDT)
+Received-SPF: neutral (google.com: 213.199.154.186 is neither permitted nor denied by best guess record for domain of MFREEMAN@balch.com) client-ip=213.199.154.186;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 213.199.154.186 is neither permitted nor denied by best guess record for domain of MFREEMAN@balch.com) smtp.mail=MFREEMAN@balch.com
+Received: from mail76-db8-R.bigfish.com (10.174.8.250) by
+ DB8EHSOBE029.bigfish.com (10.174.4.92) with Microsoft SMTP Server id
+ 14.1.225.23; Fri, 12 Apr 2013 05:30:07 +0000
+Received: from mail76-db8 (localhost [127.0.0.1])	by mail76-db8-R.bigfish.com
+ (Postfix) with ESMTP id 7AC90C4011C;	Fri, 12 Apr 2013 05:30:07 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:208.72.130.61;KIP:(null);UIP:(null);IPV:NLI;H:mail.balch.com;RD:208_72_130_61.teklinks.com;EFVD:NLI
+X-SpamScore: -4
+X-BigFish: VPS-4(zzbb2dI98aI98dI9371I98bI70eI70dId79ah11fbI15e4kdbf2izz1f42h1fc6h1ee6h1de0h1fdah1202h1e76h1d1ah1d2ahzz172cfch177df4h17326ah19a27bh18602eh172cdfh8275bhz2dh2a8h668h839h946hd25he5bhf0ah1288h12a5h12a9h12bdh137ah13b6h1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1155h)
+Received: from mail76-db8 (localhost.localdomain [127.0.0.1]) by mail76-db8
+ (MessageSwitch) id 1365744603761866_27772; Fri, 12 Apr 2013 05:30:03 +0000
+ (UTC)
+Received: from DB8EHSMHS002.bigfish.com (unknown [10.174.8.225])	by
+ mail76-db8.bigfish.com (Postfix) with ESMTP id B5CE32C004F;	Fri, 12 Apr 2013
+ 05:30:03 +0000 (UTC)
+Received: from mail.balch.com (208.72.130.61) by DB8EHSMHS002.bigfish.com
+ (10.174.4.12) with Microsoft SMTP Server (TLS) id 14.1.225.23; Fri, 12 Apr
+ 2013 05:30:02 +0000
+Received: from BHAMEXMB2010D.corp.balch.com ([fe80::841c:c529:abe9:7f08]) by
+ BHAMEXHUB2010B.corp.balch.com ([fe80::1cdc:4cb0:a82d:5e6c%9]) with mapi id
+ 14.01.0323.003; Fri, 12 Apr 2013 00:30:00 -0500
+From: "Freeman, Mike" <MFREEMAN@balch.com>
+To: ****** <******@sanderstrust.com>,*********
+	<******@Southernco.com>, ********* <********@STXHealthcare.com>,
+	"******@charter.net" <******@charter.net>, <******@mindspring.com>, "********@southernco.com" <********@southernco.com>
+CC: "Freeman, Mike" <MFREEMAN@balch.com>, "Ms. Sherri T. Freeman"
+	<sherrifreeman@bellsouth.net>, "trevorefreeman@gmail.com"
+	<trevorefreeman@gmail.com>,  <******@gmail.com>, <********@charter.net>, ******* <********@hotmail.com>
+Subject: Re: Final Investors, Banker, First Capital Call
+Thread-Topic: Final Investors, Banker, First Capital Call
+Thread-Index: AQHONc4bcCqqtDQX8ECp0nyKAFjpBpjQmLGAgAF5Pzo=
+Date: Fri, 12 Apr 2013 05:29:59 +0000
+Message-ID: <BB527BAA-A8EA-498A-A869-4380EC499A7B@balch.com>
+References: <34440E2E6837A94AA48AAD99DEA41B9641837BAB@BHAMEXMB2010D.corp.balch.com>
+ <B228AC53D6A87E46AE9B85C5B84B77F32D3F64AF@GULFEX2010.corp.balch.com>
+ <34440E2E6837A94AA48AAD99DEA41B964183837A@BHAMEXMB2010D.corp.balch.com>
+ <B228AC53D6A87E46AE9B85C5B84B77F32D3F6543@GULFEX2010.corp.balch.com>
+ <34440E2E6837A94AA48AAD99DEA41B96418383BE@BHAMEXMB2010D.corp.balch.com>
+ <6F9E0241-BD26-41A0-B3CF-249BE5CE0504@balch.com>
+ <C652AFA4-7A29-45EE-B708-B8E4FF4D6CFC@balch.com>
+ <594B3B18-6F4C-49DE-A913-261AF2502B84@balch.com>
+ <B36B82B5-F92C-418B-A1F8-6C88CB0C64CF@balch.com>
+ <E7709484-15B4-4826-B380-49BB8AC95467@balch.com>,<CD96958C-534D-455C-9F3F-5C1315E7667E@balch.com>,<1C20C231-D0E1-4C3C-936C-A0794DC660DD@balch.com>
+In-Reply-To: <1C20C231-D0E1-4C3C-936C-A0794DC660DD@balch.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Return-Path: MFREEMAN@balch.com
+X-OriginatorOrg: balch.com
+
+Update from steroid man **cancer treatment**.  Machines are running and humming and generating l=
+ite coins.  Boys want a few more days to see how many as they just got the =
+kinks worked out.
+
+I know I said no more investors, but we have one.  Welcome Dr. Larry Monroe=
+. Larry spent around 10 years of his life at MIT going to and teaching clas=
+ses and working on inventing things. I introduced Trevor to him a few years=
+ back because of Tevor's interest in attending MIT.  Trevor reached out to =
+Larry and one thing led to another and Larry would like to invest and has a=
+greed to meet with the boys and help on technical issues. I think this is a=
+ no brainer.  With Larry's $500, the boys are going to ask to buy a replica=
+ of what they have as soon as they prove they have earned money by showing =
+us the money.  They now say the $10K machine is not available. There is a w=
+aiting list, which they might ask to get on, but we can discuss later.
+
+Below is another bad article.  Looks the the twins that litigated with Mark=
+ Zuckerburg the ownership of Facebook, are now trying to corner the bit coi=
+n market and its worrying some people.
+
+Follow this link to view the article: Are the Winklevoss Twins Trying to Co=
+rner the Bitcoin Market?<http://www.pcmag.com/article2/0,2817,2417700,00.as=
+p>
+
+
+
+Sent from my iPad
+
+On Apr 10, 2013, at 8:59 PM, "Freeman, Mike" <MFREEMAN@balch.com<mailto:MFR=
+EEMAN@balch.com>> wrote:
+
+Men or mice - that is the question.  Your answer willl be your capital cont=
+ribution, which we would like to see paid by this Saturday.  Hardware is in=
+stalled, bugs are being worked, and boys claim they already have earned som=
+e litecoins.
+
+That being said, and in the interest of complete candor and full discourse,=
+ please see the NY Magazine article below, predicting the bitcoin bubble is=
+ bursting.
+
+From New York Magazine:
+
+
+
+
+=B7
+=B7                                 Today at 4:52 PM
+
+=B7                                 16Comments<http://nymag.com/daily/intel=
+ligencer/2013/04/bitcoin-apocalypse-is-nigh.html#comments>
+The Bitcoin Apocalypse Is Nigh
+=B7                                 By Kevin Roose<http://nymag.com/author/=
+kevin%20roose>
+0<http://nymag.com/daily/intelligencer/2013/04/bitcoin-apocalypse-is-nigh.h=
+tml?mid=3Dgoogle&google_editors_picks=3Dtrue>
+7<http://nymag.com/daily/intelligencer/2013/04/bitcoin-apocalypse-is-nigh.h=
+tml?mid=3Dgoogle&google_editors_picks=3Dtrue>
+Share on email<http://www.addthis.com/bookmark.php>
+[cid:image001.jpg@01CE361E.843F1AD0]
+
+Well, nothing gold can stay. And so, as surely as the Bitcoin bubble expand=
+ed, so the Bitcoin bubble appears to be on its way back in.
+
+We may never know what started today's crash<http://techcrunch.com/2013/04/=
+10/bitcoin-crash/> in the price of Bitcoin. Some Bitcoin enthusiasts are bl=
+aming a DDOS attack on prominent Bitcoin exchanges, while others are, somew=
+hat less credibly, blaming<https://twitter.com/bitcoin_txt/status/322053489=
+482137600> a government plot to destroy faith in the Internet's favorite cr=
+ypto-currency. But regardless of why, something major is happening. My 93.5=
+23120 percent of a Bitcoin,which I bought<http://nymag.com/daily/intelligen=
+cer/2013/04/i-bought-a-bitcoin.html> for $124.81 exactly a week ago and saw=
+ shoot up to be worth nearly $250 at its peak, is now worth about $140. (Al=
+though given Bitcoin's volatility, that price is probably obsolete as I wri=
+te this.)
+
+What's been most interesting to watch, throughout this whole weeklong saga,=
+ is the relationship between the old Bitcoin community =97 the diehards who=
+ have been touting the merits of virtual currency since 2009 and who popula=
+te the threads on the Bitcoin subReddit<http://www.reddit.com/r/bitcoin> =
+=97 and the Johnny-come-latelies like me, who had heard of Bitcoin and vagu=
+ely knew what it was, but didn't snap to attention and actually consider bu=
+ying in until the price was on a wild upswing.
+
+Most of the Bitcoin originals I've talked to over the course of the last we=
+ek have been skeptical of Bitcoin noobs. That's understandable. Because whi=
+le, sure, a sudden flock of interested buyers jacks up the price of Bitcoin=
+s and makes a few early adopters an insanely large amount of money very qui=
+ckly, most of those buyers won't stick around for long. And, moreover, maki=
+ng money isn't really the end goal of the Bitcoin movement. The goal is to =
+establish legitimacy and draw attention to the shortcomings of government-c=
+ontrolled currency. For the last week, Bitcoin's price swings have made it =
+seem anything but legitimate.
+
+There is a case to be made that the sudden upswing in interest in Bitcoins =
+has been a good thing for the alternative-currency movement, regardless of =
+how far prices fall in the coming days. As I pointed out when I bought my B=
+itcoin (and I think was apparent when I interviewed<http://nymag.com/daily/=
+intelligencer/2013/04/inside-the-bitcoin-bubble-bitinstants-ceo.html> BitIn=
+stant CEO Charlie Shrem this week), the main problem with Bitcoin right now=
+ is that the entire infrastructure supporting it is a mess. Money is too ha=
+rd to get in and out of the system, exchanges to buy and sell Bitcoin are c=
+reaking under the weight of demand, and hackers can steal Bitcoins with no =
+recourse.
+
+Some hard-core Bitcoin enthusiasts, like Erik Voorhees, think that the curr=
+ent surge of attention paid to Bitcoin will help on that front, by giving v=
+enture capitalists a reason to invest in start-ups like Coinsetter<http://t=
+echcrunch.com/2013/04/09/coinsetter-lands-500k-from-secondmarket-founder-ot=
+hers-to-help-bring-leverage-shorting-to-bitcoin-trade/> that will, ultimate=
+ly, make the market more resilient and sophisticated.
+
+"Well remember it's important to make a distinction between buying coins to=
+ speculate on price and building up infrastructure," Voorhees told<http://w=
+ww.buzzfeed.com/jwherrman/the-man-who-gave-his-life-to-bitcoin> BuzzFeed's =
+John Herrman. "Those who are into Bitcoin should do the latter, full time. =
+The speculation is separate ... it's for anyone who wants to take a gamble =
+on the volatile market."
+
+Those enthusiasts also take the tack that the more people who hear about Bi=
+tcoin, the more retail establishments will begin to accept it as currency, =
+and the more its purchasing power will begin to resemble the dollar. (Alrea=
+dy this week, we've had a winery<http://picnicwineco.com/bitcoin-for-wine/1=
+051/> and a bar in midtown<http://money.cnn.com/2013/04/08/investing/bitcoi=
+n-bar-new-york-city/> begin accepting Bitcoins.)
+
+But what these optimists miss is that people don't just use the dollar beca=
+use it's accepted at their favorite wineries. They use it because they trus=
+t it. They trust that if five dollars can buy a box of Cheerios today, it c=
+an buy one tomorrow too. And that trust is built on the fact that the U.S. =
+dollar is backed by a government, exchanged in a market that is controlled =
+by regulations, and controlled in a monetary system that is overseen by the=
+ Federal Reserve.
+
+There is a certain irony to the fact that Bitcoin enthusiasts are currently=
+blaming<http://www.reddit.com/r/Bitcoin/comments/1c3149/im_no_expert_on_the=
+_subject_but_it_kind_of_looks/> today's price action on market manipulation=
+, and wishing that there were some mechanism =97 like a circuit-breaker on =
+exchanges =97 to keep prices somewhat stable. Because those measures would =
+require a unilateral decision by a policy authority, and unilateral decisio=
+ns by policy authorities are exactly what Bitcoins were created to protest.
+
+When the financial system nearly collapsed in 2008, we had tools to stop th=
+e economy from coming to a total, unfathomable halt. We had the Fed's emerg=
+ency borrowing window. We had TARP. We had depositor guarantees, and we're =
+putting in place laws to try to keep a similar crisis from happening again.
+
+The Bitcoin economy, on the other hand, can't do anything to stop a collaps=
+e once it's in motion. And the current panic of Bitcoin enthusiasts proves =
+that while people hate currency manipulation and government intervention in=
+ boom times, they're slightly fonder of it when the sky is falling.
+
+Sent from my iPad
+
+On Apr 10, 2013, at 4:31 AM, "Freeman, Mike" <MFREEMAN@balch.com<mailto:MFR=
+EEMAN@balch.com>> wrote:
+
+John Cline called and decided to join us in backing the youth of America.  =
+That makes a total of six investors.  We have no plans to invite anyone els=
+e.  In the unlikely event this proves successful and additional funding is =
+necessary, the plan is for us six to provide equal amounts of any additiona=
+l capital.  If somebody drops out the rest of us will pick up the slack.  I=
+f some of us think additional investors are desirable, let's leave to major=
+ity of remaining paid up investors to approve entry of any new investor and=
+ terms of entry.  Let me know if you disagree.
+
+Equipment ordered and may have arrived. Not sure. Trevor has strep so he is=
+ laid up.  As for me, back at MD.  Started chemo at midnight. With that I a=
+lso started liquid steroids by IV drip. Not much sleep will be had for seve=
+ral days. So, that means 4am emails.
+
+The Jebeles have volunteered to play banker. We have conferred and decided =
+we would ask for $500 from each investor, which should be more than to see =
+us through the phase 1 proving stage.  If boys fail to prove technology can=
+ produce revenue stream, we will refund any amount left after payment of al=
+l expenses.
+
+
+
+Sent from my iPad
+
+On Apr 8, 2013, at 1:16 PM, "Freeman, Mike" <MFREEMAN@balch.com<mailto:MFRE=
+EMAN@balch.com>> wrote:
+
+http://www.forbes.com/sites/timothylee/2013/04/07/four-reasons-bitcoin-is-w=
+orth-studying/
+
+Sent from my iPhone
+
+
+<balch_logo15b76d>
+
+Michael D. Freeman, Partner, Balch & Bingham LLP
+1901 Sixth Avenue North =95 Suite 1500 =95 Birmingham, AL 35203-4642
+t: (205) 226-3432   f: (205) 488-5865  e: mfreeman@balch.com<mailto:mfreema=
+n@balch.com>
+www.balch.com<http://www.balch.com/>
+
+On Apr 8, 2013, at 7:21 AM, "Freeman, Mike" <MFREEMAN@balch.com<mailto:MFRE=
+EMAN@balch.com>> wrote:
+
+So, except for John Cline (who we are waiting to hear from) the rest of us =
+are in.  We are going to invest in the youth of America.  We are going to t=
+ake our hard earned dollars and invest in a bushiness plan that none of us =
+really understand that was developed by 2 sixteen year olds. It goes withou=
+t saying that all of us are well educated, sophisticated business people wh=
+o independently made their own decision and did not rely on any representat=
+ions made by the minors, and certainly not the business prospectus they thr=
+ew together - aforesaid prospectus being the first they ever wrote without =
+knowledge that guarantees are never given and appropriate disclaimers must =
+be included.  That being said, the minors, through legal counsel, now hereb=
+y disclaim, disavow, withdraw, rescind and declare null and void any prior =
+guarantees, assurances, promises, and representations, written or oral, abo=
+ut anything, including their ability to turn invested funds into returns.
+
+By investing, you acknowledge, warrant and represent that you are investing=
+ in the skills and talents of two sixteen year old young men, who have no t=
+rack record of business success, tend to be optimistic about things, someti=
+mes fudge the truth to get what they want, and have had numerous other craz=
+y ideas that flopped. You understand all of this, but it is still you decis=
+ion to invest your hard earned money in their crazy half baked get rich ide=
+a.  You, of course, are prepared to lose all of your investment.  In fact, =
+you expect too.
+
+Your investment may be used by minors for any and all lawfulness purposes, =
+including, but not limited to, the acquisition of hardware and the payment =
+of utilities necessary to mine bitcoins and litecoins.  Indeed, the minors =
+work fast and attached is the equipment already ordered.  Depending on scho=
+olwork and soccer practice and games, minors anticipate being fully operati=
+onal by the end of the week, and generating coins by the following week. Th=
+is is not a guarantee, only their overly optimistic musings.
+
+Since minors lack the ability to lawfully contract, there will be no contra=
+cts. Everything will by trust and handshake. If you ever want your money ba=
+ck, tough.  Don't invest it!  If you want a distribution at some point, you=
+ can request it, but don't count it, the minors have re-investment plans.
+
+Now on to the deal.  The minors initially proposed that adults would invest=
+ all necessary funds for hardware acquisition, and profits would be split 8=
+0% to minors and 20% to adults. Silly kids.  Adults countered and minors ac=
+cepted forming a contract which has no legal effect or validity, but which =
+established a relationship of trust.  The oral unenforceable contract we ha=
+ve agreed to is as follows:
+
+1.  Investors will pool funds for purposes of hardware acquisition, utility=
+ bill coverage, and misc expenses. Purpose is to cover all costs and expens=
+es of minors. Each investor will invest the same amount.  Each investor wil=
+l be entitled to the same % of profit distribution. But only investors Dr. =
+John Jebeles and Mike Freeman shall have any questioning or disciplinary au=
+thority over the minors.  To illustrate, all mining activity may be shut do=
+wn at anytime for exams, bad grades or bad attitude. Non-parental investors=
+ shall have no rights or recourse if such actions occur, but shall have a l=
+ien to extent of their investment on any purchased hardware.
+
+2.  Minors will acquire, build, install and operate one system to mine coin=
+s as market conditions dictate in order to prove technology works and gener=
+ates revenue in the form of coins, which can be exchanged or converted into=
+ US$ or gold.  This is Phase I.
+
+3.  Revenue generated by minors through their efforts will be used as follo=
+ws: a. Pay back investors initial investment, b. after payback split 50/50 =
+between investors and minors.  Investors shall split their 50% in equal sha=
+res as all investors shall have invested the same amount.  If any investor =
+fails to make initial investment within 48 hours of specific monetary reque=
+st, other investors shall have the right to split such share.
+
+4. After total number of investors is known (investors limited to those on =
+this email), and after initial costs calculated, an email will be sent to i=
+nvestors with the amount of initial investment, which will also include an =
+amount to cover electricity for 3 months and other misc expenses.  Investor=
+s, unless required by law, shall have no rights to audit anything.  Initial=
+ hardware costs were fronted by Freemans.  A copy of receipts is pasted bel=
+ow.
+
+5.  Minors will provide periodic updates on status of venture consistent wi=
+th other obligations, such as schoolwork.
+
+6.  The goal and objective is for minors to prove technology works and will=
+ generate revenue, either in the form of US$ or gold.  Once minors have pro=
+ven technology to investors satisfaction, minors will propose a plan for be=
+ginning Phase II, which will involve the acquisition of more hardware.
+
+Michael D. Freeman
+Minors Representative and Attorney-in-Fact
+
+PS.  Yes, I have multiple conflicts of interest.  Tough.  If you don't like=
+ it, don't invest.  Minors have asked me to be the interface with investors=
+ (of which I am one) and I have agreed to do so.
+
+PSS.  Sure could use a banker to determine amount of initial investment, op=
+en account and deposit funds in such account, and reimburse Freemans for ac=
+quiring hardware.  Any takers?
+
+Sent from my iPad
+
+Receipts
+
+
+Order Summary
+
+Sales Order Number: 158759177<tel:158759177> (RushOrder)
+Sales Order Date:        4/7/2013 8:38:58 PM
+Shipping Method:         Newegg Next Day
+
+4 x ($299.99) PowerColor AX7950 3GBD5-2DHV4 Radeon HD 7950 Boost State 3GB =
+384-bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card<=
+http://www.newegg.com/Product/Product.aspx?Item=3DN82E16814131478>
+$1199.96
+
+4 x ($169.99) AMD Gift coupon: Crysis 3 + Bioshock Inf.<http://www.newegg.c=
+om/Product/Product.aspx?Item=3DN82E16800995145>
+$679.96
+
+1 x ($139.99) GIGABYTE GA-990FXA-UD3 AM3+ AMD 990FX SATA 6Gb/s USB 3.0 ATX =
+AMD Motherboard<http://www.newegg.com/Product/Product.aspx?Item=3DN82E16813=
+128514>
+$139.99
+
+2 x ($59.99) KINGWIN ABT-750MM 750W ATX 12V v2.2/ BTX SLI Ready CrossFire R=
+eady Power Supply<http://www.newegg.com/Product/Product.aspx?Item=3DN82E168=
+17121085>
+$119.98
+
+1 x ($38.99) AMD Sempron 145 Sargas 2.8GHz Socket AM3 45W Single-Core Deskt=
+op Processor SDX145HBGMBOX<http://www.newegg.com/Product/Product.aspx?Item=
+=3DN82E16819103888>
+$38.99
+
+1 x ($25.99) CORSAIR 4GB 240-Pin DDR3 SDRAM DDR3 1333 Desktop Memory Model =
+CMV4GX3M1A1333C9<http://www.newegg.com/Product/Product.aspx?Item=3DN82E1682=
+0145322>
+$25.99
+
+1 x ($14.99) Silicon Power Blaze B10 16GB USB 3.0 Flash Drive Model SP016GB=
+UF3B10V1B<http://www.newegg.com/Product/Product.aspx?Item=3DN82E16820301043=
+>
+$14.99
+
+1 x ($9.99) Rosewill RNX-N150HG (RNWD-11004) IEEE 802.11b/g/n, USB 2.0, Hig=
+h Gain Wireless-N Adapter (1T1R) Up to 150Mbps Data Rates, 64/128-bit WEP, =
+complies with WPA/WPA2 standard (TKIP/AES)<http://www.newegg.com/Product/Pr=
+oduct.aspx?Item=3DN82E16833166068>
+$9.99
+
+1 x ($7.99) Rosewill RNWA-UC10 USB Cradle<http://www.newegg.com/Product/Pro=
+duct.aspx?Item=3DN82E16833998166>
+$7.99
+
+1 x ($5.99) APEVIA CS-01 Multi-Purpose Case Screws 90 in 1 pack<http://www.=
+newegg.com/Product/Product.aspx?Item=3DN82E16811998139>
+$5.99
+
+1 x ($-7.99) DISCOUNT FOR AUTOADD #79584
+$-7.99
+
+4 x ($-169.99) DISCOUNT FOR AUTOADD #78690
+$-679.96
+
+Subtotal:       $1555.88
+Tax:    $0.00
+Shipping and Handling:  $78.30
+Rush Order:     $2.99
+Total Amount:   $1637.17
+
+
+------------------------
+
+
+
+Order Summary:
+Shipping Details : Micro SATA Cables
+Order #:        104-3894671-7221818<https://www.amazon.com/gp/css/order-his=
+tory/ref=3Dox_oce_order_history>
+Shipping Method:        Two-Day Shipping
+Items:          $28.75
+Shipping & handling:    $7.70
+        ------
+Total before tax:       $36.45
+Estimated tax to be collected:*         $0.00
+        ------
+Order total:    $36.45
+
+
+
+<image001.jpg>
+

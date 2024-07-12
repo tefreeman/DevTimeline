@@ -1,0 +1,51 @@
+Delivered-To: trevorefreeman@gmail.com
+Received: by 10.229.10.4 with SMTP id n4cs124191qcn;
+        Sun, 10 Oct 2010 22:46:02 -0700 (PDT)
+Received: by 10.236.95.138 with SMTP id p10mr10789262yhf.87.1286775962315;
+        Sun, 10 Oct 2010 22:46:02 -0700 (PDT)
+Return-Path: <sales@hostgator.com>
+Received: from gatorbill.hostgator.com (gatorbill.hostgator.com [74.52.220.2])
+        by mx.google.com with ESMTP id m25si10127642yha.158.2010.10.10.22.46.02;
+        Sun, 10 Oct 2010 22:46:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sales@hostgator.com designates 74.52.220.2 as permitted sender) client-ip=74.52.220.2;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of sales@hostgator.com designates 74.52.220.2 as permitted sender) smtp.mail=sales@hostgator.com
+Received: from gatorbill.hostgator.com (localhost.localdomain [127.0.0.1])
+	by gatorbill.hostgator.com (8.13.8/8.13.8) with ESMTP id o9B5jt82014629
+	for <trevorefreeman@gmail.com>; Mon, 11 Oct 2010 00:45:55 -0500
+Received: (from gb_cron@localhost)
+	by gatorbill.hostgator.com (8.13.8/8.13.8/Submit) id o9B5jtMK014628;
+	Mon, 11 Oct 2010 00:45:55 -0500
+Date: Mon, 11 Oct 2010 00:45:55 -0500
+Message-Id: <201010110545.o9B5jtMK014628@gatorbill.hostgator.com>
+X-Authentication-Warning: gatorbill.hostgator.com: gb_cron set sender to sales@hostgator.com using -f
+Content-Transfer-Encoding: 7bit
+From: sales@hostgator.com
+To: trevorefreeman@gmail.com
+Subject: HostGator.com :: New Account Info
+
+
+Trevor Freeman,
+
+Thank you for your order with HostGator.
+
+We are happy to inform you that your Shared Hosting Account has been configured and is ready for use!
+
+You can login to our billing system at http://gbclient.hostgator.com/login using your email address and the password DK1qv1a1Nanl
+
+Your Control Panel:	https://gator1036.hostgator.com:2083
+Your Domain: OpenfixTechnology.com
+Your Username: openfix
+Your Password: sCWB7hn4aC6r
+
+Your Nameservers:
+NS1:	ns2071.hostgator.com
+NS2:	ns2072.hostgator.com
+
+Visit the HostGator Knowledgebase and Video Tutorials section for solutions to commonly asked questions:
+http://support.hostgator.com/
+http://www.hostgator.com/tutorials.shtml
+
+If you have any questions, comments, or concerns, feel free to email support@hostgator.com.
+
+Best regards,
+HostGator.com

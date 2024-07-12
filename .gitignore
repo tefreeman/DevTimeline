@@ -1,3 +1,8 @@
+#
+passwords.txt
+password_findings.txt
+local_password_findings.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

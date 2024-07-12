@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MelonHTML5 - Metro UI Documentation</title>
+        <link type="text/css" rel="stylesheet" href="syntaxhighlighter/styles/shCoreRDark.css"/>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter/scripts/shCore.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter/scripts/shBrushJScript.js"></script>
+        <script type="text/javascript" src="syntaxhighlighter/scripts/shBrushPhp.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                SyntaxHighlighter.all();
+            });
+        </script>
+    </head>
+    <body>
+        <header></header>
+        <div id="wrapper">
+            <h1>How to install?</h1>
+            <p>Copy the entire folder to the Document Root of your web server which is usually named <span class="c">www</span> or <span class="c">public_html</span>.</p>
+            <div class="hr"></div>
+            <h1>Config a Tile</h1>
+            <div>
+                <pre class="brush: php; toolbar: false; auto-links: false;">
+                $tile = array(
+                    'name'        => 'about',
+                    'thumbnail'   => 'images/about.png',
+                    'content'     => 'About Us',
+                    'url'         => 'about.php',
+                    'size'        => '4x2',
+                    'theme'       => 'red',
+                    'link'        => ''
+                )
+                </pre>
+                <ul>
+                    <li>
+                        <div class="opt_name"><b>name</b></div>
+                        <div class="opt_detail">The unique name of every tile, displayed as a hash tag in URL when a tile is clicked. For example: http://www.yoursite.com/#about</div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>thumbnail</b></div>
+                        <div class="opt_detail">Relative path to the tile icon (<span class="c">64px X 64px</span> or <span class="c">128px X 128px</span>)</div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>content</b></div>
+                        <div class="opt_detail">This is the short description shown at the left bottom corner of a tile</div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>url</b></div>
+                        <div class="opt_detail">When a tile is clicked, the tile content is loaed via XHR from a page. So, this is the URL of the page. For example: <span class="c">about.php</span></div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>size</b></div>
+                        <div class="opt_detail">Tile size. Possible values: <span class="c">1x1</span><span class="c">2x2</span><span class="c">4x2</span></div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>theme</b></div>
+                        <div class="opt_detail">Pre-defined theme. Possible values: <span class="c">blue</span><span class="c">orange</span><span class="c">red</span><span class="c">green</span><span class="c">darkgreen</span><span class="c">purple</span><span class="c">dardred</span><span class="c">dardblue</span><span class="c">yellow</span><span class="c">grey</span></div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>colour</b></div>
+                        <div class="opt_detail">Tile colur (Hex code, e.g. #000000).</div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>link</b></div>
+                        <div class="opt_detail">An external URL. When this is set, clicking a tile takes you to the URL in a new tab</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="hr"></div>
+            <h1>Config a Tile Container</h1>
+            <div>
+                <pre class="brush: php; toolbar: false; auto-links: false;">
+                $tile_container = array(
+                    'size'    => 'full',
+                    'theme'   => '',
+                    'tiles'   => array($tiles, $tiles, ...)
+                );
+                </pre>
+                <ul>
+                    <li>
+                        <div class="opt_name"><b>size</b></div>
+                        <div class="opt_detail">The container size. Possible values: <span class="c">full</span> <span class="c">half</span></div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>theme</b></div>
+                        <div class="opt_detail">Overall container colour. When conatiner colour is set to <span class="c">blue</span> all its tiles will be red no matter what tile theme colour is.<br>Possible values: <span class="c">blue</span><span class="c">orange</span><span class="c">red</span><span class="c">green</span><span class="c">darkgreen</span><span class="c">purple</span><span class="c">dardred</span><span class="c">dardblue</span><span class="c">yellow</span><span class="c">grey</span></div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>tiles</b></div>
+                        <div class="opt_detail">An array of all the tiles in the container.</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="hr"></div>
+            <h1>A little bit more...</h1>
+            <div>
+                <ul>
+                    <li>
+                        <div class="opt_name"><b>Page content</b></div>
+                        <div class="opt_detail">For instance you have an "about us" tile, and the tile url is "about_us.php". In "about_us.php", make sure you do not include <span class="c">&lt;HTML&gt;</span><span class="c">&lt;HEAD&gt;</span> or <span class="c">&lt;BODY&gt;</span> tags as the entire page content is loaded via AJAX and set as innerHTML of a DOM. What you put in the page should be what you usually write in <span class="c">&lt;BODY&gt;</span> of a normal web page.
+                            <div class="note"><b>Note:</b> page content is cached in memory once loaded.</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="opt_name"><b>Loading extra JavaScript and CSS</b></div>
+                        <div class="opt_detail">
+                            Open <span class="c">ui.class.php</span> in <span class="c">includes</span> folder, and find the code below:
+                        </div>
+                        <pre class="brush: php; toolbar: false; auto-links: false;">
+                        // system default CSS, JS
+                        $this->addCSS('metro.css');
+                        $this->addCSS('metro_mobile.css', 'screen and (max-height: 500px), screen and (orientation:portrait)');
+                        $this->addJavaScript('jquery.js');
+                        $this->addJavaScript('metro.js');
+
+                        // your own CSS, JS
+                        $this->addCSS('example1.css');       // CSS
+                        $this->addCSS('example2.css');       // CSS
+                        ...
+                        $this->addJavaScript('example1.js'); // JavaScript
+                        $this->addJavaScript('example2.js'); // JavaScript
+                        </pre>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <a href="http://www.melonhtml5.com" target="_blank">@ MelonHTML5</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+#bar {
+	width: 100%;
+	height: 7.5%;
+}
+
+#banner {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#logout {
+	float: right;
+	font-size: 3em;
+}
