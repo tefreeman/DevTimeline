@@ -8,6 +8,8 @@ Each project in this repository represents a distinct chapter in my early coding
 
 To ensure that no passwords or sensitive information remain in the following projects, I used two helper scripts, `git_search.py` and `file_search.py`, after running BFG.jar. 
 
+Please note that these are not my only coding projects, just the ones I could find and include here.
+
 ### 2009 - x86 Assembly
 - **Project Description**: Learned enough x86 assembly to bypass the "Command and Conquer" license key check, allowing a friend to play with me over a VPN local VLAN (Later bought him a copy). 
 - **Contents**: Nothing
