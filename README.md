@@ -53,4 +53,4 @@ Each folder in this repository is dedicated to a different project. More recent 
 
 This repository not only showcases my technical skills but also my journey and growth as a developer. Each project taught me something new and brought me closer to where I am today.
 
-Feel free to explore, learn, and perhaps enjoy a laugh at my early coding attempts.
+Feel free to make a pull request if you want to marvel at my questionable coding choices, we all start from somewhere!
