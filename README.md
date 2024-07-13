@@ -31,14 +31,15 @@ Each project in this repository marks a distinct chapter in my early coding jour
 - **Contents**: Website files
 
 ### 2017-2019 - Sift
-- **Project Description**: Developed an AI-powered app to estimate calorie counts in dishes from menus using a combination of web scraping and machine learning. This project was developed with git so I'll link the repos instead.
-- **Links**:
-  - **Frontend Angular**: https://github.com/tefreeman/foodApp/tree/frontEndApi
-  - **Recipe Crawlers**: https://github.com/tefreeman/opencrawl
-  - **Yelp Crawler**: https://github.com/tefreeman/ycrawl
-  - **Recipe parser**: https://github.com/tefreeman/recipe_parser
-  - **Food Ingredient Backend Connector**: https://github.com/tefreeman/food_connector
-  - **Food Ingredient Frontend Connector**: https://github.com/tefreeman/connector-front/tree/master
+- **Project Description**: I developed an AI-powered application to estimate calorie counts in dishes from menus by combining web scraping and machine learning. The project utilized Git for version control. Recently, to save time and optimize workflows, I created an AI summarization project that leverages Retrieval-Augmented Generation (RAG) to analyze, embed, and summarize code files within a specified project directory. These summaries, combined with a high-quality model like ChatGPT-4, were then used to generate comprehensive GitHub READMEs for this and other old projects.
+- **AI Summarizer**: [AI Summarizer Repository](https://github.com/tefreeman/ai_summarizer)
+- **Repo Links**:
+  - [Frontend Angular](https://github.com/tefreeman/foodApp/tree/frontEndApi)
+  - [Recipe Crawlers](https://github.com/tefreeman/opencrawl)
+  - [Yelp Crawler](https://github.com/tefreeman/ycrawl)
+  - [Recipe Parser](https://github.com/tefreeman/recipe_parser)
+  - [Food Ingredient Backend Connector](https://github.com/tefreeman/food_connector)
+  - [Food Ingredient Frontend Connector](https://github.com/tefreeman/connector-front/tree/master)
 
 ## Using This Repository
 
