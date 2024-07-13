@@ -63,6 +63,12 @@ Sure! Here's how you can format the additional projects for your GitHub README:
 - **Project Description**: Created a bytecode interpreter for the Lox programming language in C. This project includes a compiler that translates Lox code into bytecode and a virtual machine that executes the bytecode.
 - **Repo Link**: [ByteCodeLox Interpreter](https://github.com/tefreeman/ByteCodeLox)
 
+### 2024 - Code Summarizer Project
+- **Project Description**: This project is designed to automatically analyze, embed, and summarize code files within a specified project directory. It leverages NLP models to generate meaningful summaries for individual files and subsequently constructs an overall summary of the project.
+- **Repo Link**: [Code Summarizer Project](https://github.com/tefreeman/ai_summarizer)
+
+
+
 ## Using This Repository
 
 Each folder in this repository is dedicated to a different project. More recent projects contain folders and code files directly related to the project, while older projects may include Word documents and email stubs documenting the process and outcomes.
