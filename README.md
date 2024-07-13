@@ -47,6 +47,10 @@ Sure! Here's how you can format the additional projects for your GitHub README:
   - [Food Ingredient Backend Connector](https://github.com/tefreeman/food_connector)
   - [Food Ingredient Frontend Connector](https://github.com/tefreeman/connector-front/tree/master)
 
+### 2021 - League of Legends Multi Box
+- **Project Description**: This project aims to automate certain aspects of the game League of Legends, specifically to control both a player's main champion and the support champion, Yuumi, simultaneously. It includes features for routing specific keyboard presses to Yuumi via sockets and automatically performing actions under certain game states.
+- **Repo Link**: [League of Legends Multi Box]([https://github.com/tefreeman/LoL-Automation](https://github.com/tefreeman/league-multi-box))
+
 ### 2023 - CLox (for school)
 - **Project Description**: Implemented an interpreter for the Lox programming language in C++. This project involves lexical analysis, parsing, and interpreting Lox code.
 - **Repo Link**: [CLox Interpreter](https://github.com/tefreeman/CLox)
@@ -58,8 +62,6 @@ Sure! Here's how you can format the additional projects for your GitHub README:
 ### 2023 - ByteCodeLox (for school)
 - **Project Description**: Created a bytecode interpreter for the Lox programming language in C. This project includes a compiler that translates Lox code into bytecode and a virtual machine that executes the bytecode.
 - **Repo Link**: [ByteCodeLox Interpreter](https://github.com/tefreeman/ByteCodeLox)
-
-You can add this content to your GitHub README to showcase your projects.
 
 ## Using This Repository
 
