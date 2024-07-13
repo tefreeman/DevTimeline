@@ -4,7 +4,9 @@ Welcome to my personal archive of programming projects from my childhood and tee
 
 ## Projects Overview
 
-Each project in this repository marks a distinct chapter in my early coding journey. While some original project files were lost over time, I've included original emails, business plans, and other relevant documents wherever possible to provide a comprehensive view of each endeavor. Below is a detailed breakdown of the projects you'll find in this repository:
+Each project in this repository represents a distinct chapter in my early coding journey. While some original project files were lost over time, I have included original emails, business plans, and other relevant documents wherever possible to provide a comprehensive view of each endeavor. Below is a detailed breakdown of the projects you'll find in this repository:
+
+To ensure that no passwords or sensitive information remain in the following projects, I used two helper scripts, `git_search.py` and `file_search.py`, after running BFG.jar. 
 
 ### 2009 - x86 Assembly
 - **Project Description**: Learned enough x86 assembly to bypass the "Command and Conquer" license key check, allowing a friend to play with me over a VPN local VLAN (Later bought him a copy). 
