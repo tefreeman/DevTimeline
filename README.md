@@ -47,15 +47,15 @@ Sure! Here's how you can format the additional projects for your GitHub README:
   - [Food Ingredient Backend Connector](https://github.com/tefreeman/food_connector)
   - [Food Ingredient Frontend Connector](https://github.com/tefreeman/connector-front/tree/master)
 
-### 2021 - CLox (for school)
+### 2023 - CLox (for school)
 - **Project Description**: Implemented an interpreter for the Lox programming language in C++. This project involves lexical analysis, parsing, and interpreting Lox code.
 - **Repo Link**: [CLox Interpreter](https://github.com/tefreeman/CLox)
 
-### 2021 - Yisp (for school)
+### 2023 - Yisp (for school)
 - **Project Description**: Developed an interpreter for a Lisp-like language in C++. This project covers lexical analysis, parsing, and interpreting Yisp code.
 - **Repo Link**: [Yisp Interpreter](https://github.com/tefreeman/Yisp)
 
-### 2022 - ByteCodeLox (for school)
+### 2023 - ByteCodeLox (for school)
 - **Project Description**: Created a bytecode interpreter for the Lox programming language in C. This project includes a compiler that translates Lox code into bytecode and a virtual machine that executes the bytecode.
 - **Repo Link**: [ByteCodeLox Interpreter](https://github.com/tefreeman/ByteCodeLox)
 
