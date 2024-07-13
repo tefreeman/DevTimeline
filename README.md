@@ -12,7 +12,7 @@ Please note that these are not my only coding projects, just the ones I could fi
 
 ### 2009 - x86 Assembly
 - **Project Description**: Learned enough x86 assembly to bypass the "Command and Conquer" license key check, allowing a friend to play with me over a VPN local VLAN (Later bought him a copy). 
-- **Contents**: Lost to time
+- **Contents**: Lost in time
 
 ### 2010 - OpenfixTechnology.com
 - **Project Description**: Created a website to help people fix technology issues themselves through detailed guides and walkthroughs.
