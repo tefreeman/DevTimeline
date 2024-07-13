@@ -34,7 +34,7 @@ Please note that these are not my only coding projects, just the ones I could fi
 - **Project Description**: Created a crowd-based service platform called Sink to connect people with local service providers. Pitch: Welcome to Sink, the world’s first crowd-based service platform that connects people with problems to neighbors with solutions. From home repair to lawn care, and anything in between, just Sink it! 
 - **Contents**: Website files
 
-### 2017-2019 - Sift
+### 2017-2020 - Sift
 - **Project Description**: I developed an AI-powered application to estimate calorie counts in dishes from menus by combining web scraping and machine learning. The project utilized Git for version control. Recently, to save time and optimize workflows, I created an AI summarization project that leverages Retrieval-Augmented Generation (RAG) to analyze, embed, and summarize code files within a specified project directory. These summaries, combined with a high-quality model like ChatGPT-4, were then used to generate comprehensive GitHub READMEs for this and other old projects.
 - **AI Summarizer**: [AI Summarizer Repository](https://github.com/tefreeman/ai_summarizer)
 - **Repo Links**:
