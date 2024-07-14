@@ -37,8 +37,7 @@ Sure! Here's how you can format the additional projects for your GitHub README:
 - **Contents**: Website files
 
 ### 2017-2020 - Sift
-- **Project Description**: I developed an AI-powered application to estimate calorie counts in dishes from menus by combining web scraping and machine learning. The project utilized Git for version control. Recently, to save time and optimize workflows, I created an AI summarization project that leverages Retrieval-Augmented Generation (RAG) to analyze, embed, and summarize code files within a specified project directory. These summaries, combined with a high-quality model like ChatGPT-4, were then used to generate comprehensive GitHub READMEs for this and other old projects.
-- **AI Summarizer**: [AI Summarizer Repository](https://github.com/tefreeman/ai_summarizer)
+- **Project Description**: Developed an AI-powered application to estimate calorie counts in dishes from menus. Scraped millions of recipes and utilized the USDA ingredient calorie database to train a machine learning model for calorie predictions. Adapted the model to work for menu items by testing against menus with known calorie values.
 - **Repo Links**:
   - [Frontend Angular](https://github.com/tefreeman/foodApp/tree/frontEndApi)
   - [Recipe Crawlers](https://github.com/tefreeman/opencrawl)
@@ -65,7 +64,7 @@ Sure! Here's how you can format the additional projects for your GitHub README:
 
 ### 2024 - Code Summarizer Project
 - **Project Description**: This project is designed to automatically analyze, embed, and summarize code files within a specified project directory. It leverages NLP models to generate meaningful summaries for individual files and subsequently constructs an overall summary of the project.
-- **Repo Link**: [Code Summarizer Project](https://github.com/tefreeman/ai_summarizer)
+- **Repo Link**: [Code Summarizer Project](https://github.com/tefreeman/CodeSummarizeAI)
 
 
 
