@@ -43,8 +43,8 @@ Sure! Here's how you can format the additional projects for your GitHub README:
   - [Recipe Crawlers](https://github.com/tefreeman/opencrawl): System to crawl recipe websites.
   - [Yelp Crawler](https://github.com/tefreeman/ycrawl): Crawled Yelp.
   - [Recipe Parser](https://github.com/tefreeman/recipe_parser): Uses NLP tools to parse recipes into ingredients.
-  - [Food Ingredient Backend Connector](https://github.com/tefreeman/food_connector): Backend for the connector-front (API).
-  - [Food Ingredient Frontend Connector](https://github.com/tefreeman/connector-front/tree/master): Frontend used for manual recipe parsing.
+  - [Food Ingredient Backend Connector](https://github.com/tefreeman/food-ingredient-backend): Backend for the connector-front (API).
+  - [Food Ingredient Frontend Connector](https://github.com/tefreeman/food-ingredient-frontend): Frontend used for manual recipe parsing.
 
 ### 2021 - League of Legends Multi Box
 - **Project Description**: This project aims to automate certain aspects of the game League of Legends, specifically to control both a player's main champion and the support champion, Yuumi, simultaneously. It includes features for routing specific keyboard presses to Yuumi via sockets and automatically performing actions under certain game states.
