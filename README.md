@@ -39,12 +39,12 @@ Sure! Here's how you can format the additional projects for your GitHub README:
 ### 2017-2020 - Sift
 - **Project Description**: Developed an AI-powered application to estimate calorie counts in dishes from menus. Scraped millions of recipes and utilized the USDA ingredient calorie database to train a machine learning model for calorie predictions. Adapted the model to work for menu items by testing against menus with known calorie values.
 - **Repo Links**:
-  - [Frontend Angular](https://github.com/tefreeman/foodApp/tree/frontEndApi)
-  - [Recipe Crawlers](https://github.com/tefreeman/opencrawl)
-  - [Yelp Crawler](https://github.com/tefreeman/ycrawl)
-  - [Recipe Parser](https://github.com/tefreeman/recipe_parser)
-  - [Food Ingredient Backend Connector](https://github.com/tefreeman/food_connector)
-  - [Food Ingredient Frontend Connector](https://github.com/tefreeman/connector-front/tree/master)
+  - [Frontend Angular](https://github.com/tefreeman/foodApp/tree/frontEndApi): The Angular/Ionic app.
+  - [Recipe Crawlers](https://github.com/tefreeman/opencrawl): System to crawl recipe websites.
+  - [Yelp Crawler](https://github.com/tefreeman/ycrawl): Crawled Yelp.
+  - [Recipe Parser](https://github.com/tefreeman/recipe_parser): Uses NLP tools to parse recipes into ingredients.
+  - [Food Ingredient Backend Connector](https://github.com/tefreeman/food_connector): Backend for the connector-front (API).
+  - [Food Ingredient Frontend Connector](https://github.com/tefreeman/connector-front/tree/master): Frontend used for manual recipe parsing.
 
 ### 2021 - League of Legends Multi Box
 - **Project Description**: This project aims to automate certain aspects of the game League of Legends, specifically to control both a player's main champion and the support champion, Yuumi, simultaneously. It includes features for routing specific keyboard presses to Yuumi via sockets and automatically performing actions under certain game states.
