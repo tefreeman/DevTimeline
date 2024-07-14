@@ -1,4 +1,4 @@
-# Early Coding Adventures
+# Dev Timeline
 
 Welcome to my personal archive of programming projects from my childhood to now. This repository serves as a digital time capsule, capturing various phases of my growth as a programmer—from simple hacks to more ambitious projects aimed at solving real-world problems.
 
